@@ -13,3 +13,4 @@ tags:
 ```
 修改可能需要sudo 或者复制出来修改在覆盖进去都可;  
 使修改生效 touch Wish.app 关闭SIP;  
+
