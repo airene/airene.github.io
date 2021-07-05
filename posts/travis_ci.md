@@ -1,6 +1,6 @@
 ---
 date: 2021-07-04
-title: travis_ci部署vitepress
+title: travis_ci自动部署vitepress
 tags:
 - travis
 description: 这个是vitepress官方的配置加了些优化，主要是能提升构建速度
