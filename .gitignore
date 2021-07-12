@@ -4,3 +4,5 @@ dist
 *.local
 .idea
 pnpm-lock.yaml
+/*.md
+/package-lock.json

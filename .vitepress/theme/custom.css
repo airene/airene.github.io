@@ -6,11 +6,10 @@
     --c-brand: #1d4ed8; /*  don't forget change the --tag-bg for tags */
     --c-brand-light: #1d4ed8;
 
-    --font-family-base: PingFangSC-regular, Microsoft Yahei, sans-serif;
+    --font-family-base: PingFangSC-regular, 'Microsoft Yahei', sans-serif;
     --font-family-mono: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 
     --header-height: 3.6rem;
-    --code-inline-bg-color: #52525b;
     --code-bg-color: #52525b;
 
     /* pure theme color */
@@ -122,6 +121,7 @@ h3 {
 
     .page {
         margin-left: 0 !important;
+        min-height: calc(100vh - 5rem);
     }
 
     .sidebar {

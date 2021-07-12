@@ -13,3 +13,5 @@ sort -t ";" -k 2 -u ~/.zsh_history | sort -o ~/.zsh_history
 
 ```
 解决问题，有时候shell真的是神器
+
+<Comment />

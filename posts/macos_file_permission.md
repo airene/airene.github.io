@@ -15,3 +15,4 @@ find . -type f -exec chmod 644 {} \; && find . -type f | xargs chmod 644 && chmo
 ```
 
 文件是 644,文件夹是755 为新建文件或文件夹的默认权限.
+<Comment />

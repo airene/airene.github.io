@@ -45,9 +45,11 @@ cache:
 
 GitHub pages 对这两个的支持都很好了，用前者的话，一般还会加一个自定义的域名，https成熟，域名现在很多也不贵。
 
-## 几个注意点：
+## 几个注意点
 
 * $travis_ci变量的值是在github平台生成的token，在github随便起名字自己记忆用的，权限也不用开太大，但是变量名是要和travis_ci官网的environment一致，也就是在travis网站上填的是 travis_ci
 * travis 有10000的构建信用分，用完了不知道会怎么样，也是为了体验，实际上用完了可以切换到github action
 * 如果需要绑定域名而且是apex型，顶域名，而不是二级域名， 也就是 `xxx.xxx` or  `www.xxx.xxx` 单独加cname好像还不行，验证不了，还需要加到 Github pages的A记录才能顺利验证，本来生效就慢，配置完如果没问题，可以过几个小时再回来看
 * 怎么配置travis, GitHub token网上好的文章一大堆就没必要写了
+
+<Comment />
