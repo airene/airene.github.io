@@ -1,0 +1,1 @@
+import{r as a,o as t,c as s,a as e}from"./app.97cc9869.js";const r='{"title":"Tags","description":"Tags","frontmatter":{"page":true,"title":"Tags","description":"Tags","sidebar":false},"relativePath":"pages/tags.md","lastUpdated":1627960444661}',i={};i.render=function(r,i,n,o,d,p){const c=a("Tags",!0);return t(),s("div",null,[e(c)])};export{r as __pageData,i as default};
