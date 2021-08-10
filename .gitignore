@@ -4,4 +4,3 @@ dist
 *.local
 .idea
 /*.md
-/package-lock.json
