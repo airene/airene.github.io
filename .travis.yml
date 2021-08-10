@@ -2,9 +2,9 @@ language: node_js
 node_js:
     - lts/*
 install:
-    - yarn install
+    - pnpm install
 script:
-    - yarn build
+    - pnpm run  build
 branches:
     only:
         - master
