@@ -12,12 +12,9 @@
     "author": "",
     "license": "ISC",
     "devDependencies": {
-        "@vue/compiler-sfc": "3.1.5",
-        "@vue/server-renderer": "3.1.5",
         "fs-extra": "^10.0.0",
         "globby": "^11.0.4",
         "gray-matter": "^4.0.3",
-        "vitepress": "^0.15.6",
-        "vue": "3.1.5"
+        "vitepress": "^0.16.0"
     }
 }
