@@ -1,1 +1,0 @@
-import{r as a,o as t,c as e,a as s}from"./app.cecfd1ef.js";const r='{"title":"Tags","description":"Tags","frontmatter":{"page":true,"title":"Tags","description":"Tags","sidebar":false},"relativePath":"pages/tags.md","lastUpdated":1628569826680}',i={};i.render=function(r,i,d,n,o,p){const c=a("Tags",!0);return t(),e("div",null,[s(c)])};export{r as __pageData,i as default};
