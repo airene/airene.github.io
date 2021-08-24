@@ -4,12 +4,14 @@ specifiers:
   fs-extra: ^10.0.0
   globby: ^11.0.4
   gray-matter: ^4.0.3
+  prettier: ^2.3.2
   vitepress: ^0.16.0
 
 devDependencies:
   fs-extra: registry.nlark.com/fs-extra/10.0.0
   globby: registry.nlark.com/globby/11.0.4
   gray-matter: registry.nlark.com/gray-matter/4.0.3
+  prettier: registry.nlark.com/prettier/2.3.2
   vitepress: registry.nlark.com/vitepress/0.16.0
 
 packages:
@@ -796,6 +798,11 @@ packages:
     name: debug
     version: 4.3.2
     engines: {node: '>=6.0'}
+    peerDependencies:
+      supports-color: '*'
+    peerDependenciesMeta:
+      supports-color:
+        optional: true
     dependencies:
       ms: 2.1.2
     dev: true
@@ -1318,6 +1325,14 @@ packages:
     version: 10.5.14
     dev: true
 
+  registry.nlark.com/prettier/2.3.2:
+    resolution: {integrity: sha1-7ygKBewlNxLkhiM9tcbyNEHnNC0=, registry: https://registry.npm.taobao.org/, tarball: https://registry.nlark.com/prettier/download/prettier-2.3.2.tgz}
+    name: prettier
+    version: 2.3.2
+    engines: {node: '>=10.13.0'}
+    hasBin: true
+    dev: true
+
   registry.nlark.com/prismjs/1.24.1:
     resolution: {integrity: sha1-xNeJXE1lACiUgvqJNtnN0ZJoQDY=, registry: https://registry.npm.taobao.org/, tarball: https://registry.nlark.com/prismjs/download/prismjs-1.24.1.tgz}
     name: prismjs
@@ -1538,6 +1553,7 @@ packages:
     transitivePeerDependencies:
       - react
       - react-dom
+      - supports-color
     dev: true
 
   registry.nlark.com/vue/3.2.1:
