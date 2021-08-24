@@ -2,7 +2,7 @@
 date: 2020-03-02
 title: 基于async和await的异步调度器
 tags:
-- 手写js系列
+- 手撕
 description: 实现一个限制并发的异步调度器
 ---
 # 基于async和await的异步调度器
