@@ -1,1 +1,0 @@
-import{o as a,c as t,f as s}from"./app.565c0791.js";const n='{"title":"解决macOS gitk字体retina问题","description":"","frontmatter":{"date":"2016-09-26","title":"解决macOS gitk字体retina问题","tags":["macOS"]},"relativePath":"posts/gitk_retina.md","lastUpdated":1629791014184}',e={},p=[s('',4)];e.render=function(s,n,e,o,r,i){return a(),t("div",null,p)};export{n as __pageData,e as default};
