@@ -4,3 +4,4 @@ dist
 *.local
 .idea
 /*.md
+00_template.md
