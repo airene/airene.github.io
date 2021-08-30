@@ -1,11 +1,11 @@
 <template>
     <div class="tags">
         <span @click="toggleTag(key)" v-for="(item, key) in data" class="tag">
-            {{ key }}
+            {{ key }} <strong>{{ data[key].length }}</strong>
         </span>
     </div>
     <div class="header">{{ selectTag }}</div>
-    <a :href="article.regularPath" v-for="(article, index) in data[selectTag]" :key="index" class="article">
+    <a :href="withBase(article.regularPath)" v-for="(article, index) in data[selectTag]" :key="index" class="article">
         <div class="title">
             <div class="title-o"></div>
             {{ article.frontMatter.title }}
@@ -15,7 +15,7 @@
 </template>
 <script lang="ts" setup>
 import { computed, ref } from 'vue'
-import { useData } from 'vitepress'
+import { useData, withBase } from 'vitepress'
 import { initTags } from '../functions'
 
 const { theme } = useData()
@@ -43,6 +43,9 @@ const toggleTag = (tag: string) => {
     border-radius: 3px;
     color: var(--c-brand);
     cursor: pointer;
+}
+.tag strong {
+    color: #222;
 }
 .header {
     font-size: 2rem;
