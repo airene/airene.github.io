@@ -1,1 +1,0 @@
-import{o as n,c as s,f as a}from"./app.eb35be3c.js";const t='{"title":"36进制转换","description":"","frontmatter":{"date":"2017-05-21","title":"36进制转换","tags":["手撕"]},"relativePath":"posts/write_36.md","lastUpdated":1630328512813}',p={},o=[a('',2)];p.render=function(a,t,p,e,c,u){return n(),s("div",null,o)};export{t as __pageData,p as default};
