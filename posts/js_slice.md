@@ -4,7 +4,7 @@ title: 类数组的[].slice.call和Array.prototype.slice.call有什么区别
 tags:
 - js
 - 性能
-description: [].slice.call和Array.prototype.slice.call比较
+description: 测试一下[].slice.call和Array.prototype.slice.call比较
 ---
 # 类数组的[].slice.call和Array.prototype.slice.call有什么区别
 
