@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>chrome默认的不让用的端口列表 | fangying.dev</title>
+    <meta name="description" content="chrome的ERR_UNSAFE_PORT是怎么回事">
+    <link rel="stylesheet" href="/assets/style.730f9c6a.css">
+    <link rel="modulepreload" href="/assets/Home.8b7790d9.js">
+    <link rel="modulepreload" href="/assets/app.76f0977f.js">
+    <link rel="modulepreload" href="/assets/posts_chrome_unsafe_port.md.4e352b41.lean.js">
+    <link rel="modulepreload" href="/assets/app.76f0977f.js">
+    <meta name="twitter:title" content="chrome默认的不让用的端口列表 | fangying.dev">
+    <meta property="og:title" content="chrome默认的不让用的端口列表 | fangying.dev">
+  </head>
+  <body>
+    <div id="app"><!--[--><!--[--><div class="theme"><header class="nav-bar" data-v-40587210><div class="sidebar-button" data-v-40587210><svg class="icon" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z" class></path></svg></div><a class="nav-bar-title" href="/" aria-label="fangying.dev, back to home" data-v-40587210 data-v-7ac13a1e><!----> fangying.dev</a><div class="flex-grow" data-v-40587210></div><div class="nav" data-v-40587210><nav class="nav-links" data-v-40587210 data-v-640fc9fc><!--[--><div class="item" data-v-640fc9fc><div class="nav-link" data-v-640fc9fc data-v-49fe041d><a class="item" href="/" data-v-49fe041d>Home <!----></a></div></div><div class="item" data-v-640fc9fc><div class="nav-link" data-v-640fc9fc data-v-49fe041d><a class="item" href="/pages/archives" data-v-49fe041d>Archives <!----></a></div></div><div class="item" data-v-640fc9fc><div class="nav-link" data-v-640fc9fc data-v-49fe041d><a class="item" href="/pages/tags" data-v-49fe041d>Tags <!----></a></div></div><div class="item" data-v-640fc9fc><div class="nav-link" data-v-640fc9fc data-v-49fe041d><a class="item" href="/pages/about" data-v-49fe041d>About <!----></a></div></div><!--]--><!----><!----></nav></div><!--[--><!--]--></header><aside class="sidebar" data-v-17c48e2f><nav class="nav-links nav" data-v-17c48e2f data-v-640fc9fc><!--[--><div class="item" data-v-640fc9fc><div class="nav-link" data-v-640fc9fc data-v-49fe041d><a class="item" href="/" data-v-49fe041d>Home <!----></a></div></div><div class="item" data-v-640fc9fc><div class="nav-link" data-v-640fc9fc data-v-49fe041d><a class="item" href="/pages/archives" data-v-49fe041d>Archives <!----></a></div></div><div class="item" data-v-640fc9fc><div class="nav-link" data-v-640fc9fc data-v-49fe041d><a class="item" href="/pages/tags" data-v-49fe041d>Tags <!----></a></div></div><div class="item" data-v-640fc9fc><div class="nav-link" data-v-640fc9fc data-v-49fe041d><a class="item" href="/pages/about" data-v-49fe041d>About <!----></a></div></div><!--]--><!----><!----></nav><!--[--><!--]--><!----><!--[--><!--]--></aside><!-- TODO: make this button accessible --><div class="sidebar-mask"></div><main class="page" data-v-8fcebc32><div class="container" data-v-8fcebc32><!--[--><!--]--><div style="position:relative;" class="content" data-v-8fcebc32><div><h1 id="chrome默认的非安全端口列表"><a class="header-anchor" href="#chrome默认的非安全端口列表" aria-hidden="true">#</a> chrome默认的非安全端口列表</h1><p>如果本地工程太多，又需要同时启动，一般会指定不同的端口号<br> 一个不注意就有可能遇到端口不能用或者不让用的情况</p><p>那chrome默认情况下都不让用多少端口呢</p><div class="language-js"><pre><code>    <span class="token number">1</span><span class="token punctuation">,</span>      <span class="token comment">// tcpmux</span>
+    <span class="token number">7</span><span class="token punctuation">,</span>      <span class="token comment">// echo</span>
+    <span class="token number">9</span><span class="token punctuation">,</span>      <span class="token comment">// discard</span>
+    <span class="token number">11</span><span class="token punctuation">,</span>     <span class="token comment">// systat</span>
+    <span class="token number">13</span><span class="token punctuation">,</span>     <span class="token comment">// daytime</span>
+    <span class="token number">15</span><span class="token punctuation">,</span>     <span class="token comment">// netstat</span>
+    <span class="token number">17</span><span class="token punctuation">,</span>     <span class="token comment">// qotd</span>
+    <span class="token number">19</span><span class="token punctuation">,</span>     <span class="token comment">// chargen</span>
+    <span class="token number">20</span><span class="token punctuation">,</span>     <span class="token comment">// ftp data</span>
+    <span class="token number">21</span><span class="token punctuation">,</span>     <span class="token comment">// ftp access</span>
+    <span class="token number">22</span><span class="token punctuation">,</span>     <span class="token comment">// ssh</span>
+    <span class="token number">23</span><span class="token punctuation">,</span>     <span class="token comment">// telnet</span>
+    <span class="token number">25</span><span class="token punctuation">,</span>     <span class="token comment">// smtp</span>
+    <span class="token number">37</span><span class="token punctuation">,</span>     <span class="token comment">// time</span>
+    <span class="token number">42</span><span class="token punctuation">,</span>     <span class="token comment">// name</span>
+    <span class="token number">43</span><span class="token punctuation">,</span>     <span class="token comment">// nicname</span>
+    <span class="token number">53</span><span class="token punctuation">,</span>     <span class="token comment">// domain</span>
+    <span class="token number">69</span><span class="token punctuation">,</span>     <span class="token comment">// tftp</span>
+    <span class="token number">77</span><span class="token punctuation">,</span>     <span class="token comment">// priv-rjs</span>
+    <span class="token number">79</span><span class="token punctuation">,</span>     <span class="token comment">// finger</span>
+    <span class="token number">87</span><span class="token punctuation">,</span>     <span class="token comment">// ttylink</span>
+    <span class="token number">95</span><span class="token punctuation">,</span>     <span class="token comment">// supdup</span>
+    <span class="token number">101</span><span class="token punctuation">,</span>    <span class="token comment">// hostriame</span>
+    <span class="token number">102</span><span class="token punctuation">,</span>    <span class="token comment">// iso-tsap</span>
+    <span class="token number">103</span><span class="token punctuation">,</span>    <span class="token comment">// gppitnp</span>
+    <span class="token number">104</span><span class="token punctuation">,</span>    <span class="token comment">// acr-nema</span>
+    <span class="token number">109</span><span class="token punctuation">,</span>    <span class="token comment">// pop2</span>
+    <span class="token number">110</span><span class="token punctuation">,</span>    <span class="token comment">// pop3</span>
+    <span class="token number">111</span><span class="token punctuation">,</span>    <span class="token comment">// sunrpc</span>
+    <span class="token number">113</span><span class="token punctuation">,</span>    <span class="token comment">// auth</span>
+    <span class="token number">115</span><span class="token punctuation">,</span>    <span class="token comment">// sftp</span>
+    <span class="token number">117</span><span class="token punctuation">,</span>    <span class="token comment">// uucp-path</span>
+    <span class="token number">119</span><span class="token punctuation">,</span>    <span class="token comment">// nntp</span>
+    <span class="token number">123</span><span class="token punctuation">,</span>    <span class="token comment">// NTP</span>
+    <span class="token number">135</span><span class="token punctuation">,</span>    <span class="token comment">// loc-srv /epmap</span>
+    <span class="token number">137</span><span class="token punctuation">,</span>    <span class="token comment">// netbios</span>
+    <span class="token number">139</span><span class="token punctuation">,</span>    <span class="token comment">// netbios</span>
+    <span class="token number">143</span><span class="token punctuation">,</span>    <span class="token comment">// imap2</span>
+    <span class="token number">161</span><span class="token punctuation">,</span>    <span class="token comment">// snmp</span>
+    <span class="token number">179</span><span class="token punctuation">,</span>    <span class="token comment">// BGP</span>
+    <span class="token number">389</span><span class="token punctuation">,</span>    <span class="token comment">// ldap</span>
+    <span class="token number">427</span><span class="token punctuation">,</span>    <span class="token comment">// SLP (Also used by Apple Filing Protocol)</span>
+    <span class="token number">465</span><span class="token punctuation">,</span>    <span class="token comment">// smtp+ssl</span>
+    <span class="token number">512</span><span class="token punctuation">,</span>    <span class="token comment">// print / exec</span>
+    <span class="token number">513</span><span class="token punctuation">,</span>    <span class="token comment">// login</span>
+    <span class="token number">514</span><span class="token punctuation">,</span>    <span class="token comment">// shell</span>
+    <span class="token number">515</span><span class="token punctuation">,</span>    <span class="token comment">// printer</span>
+    <span class="token number">526</span><span class="token punctuation">,</span>    <span class="token comment">// tempo</span>
+    <span class="token number">530</span><span class="token punctuation">,</span>    <span class="token comment">// courier</span>
+    <span class="token number">531</span><span class="token punctuation">,</span>    <span class="token comment">// chat</span>
+    <span class="token number">532</span><span class="token punctuation">,</span>    <span class="token comment">// netnews</span>
+    <span class="token number">540</span><span class="token punctuation">,</span>    <span class="token comment">// uucp</span>
+    <span class="token number">548</span><span class="token punctuation">,</span>    <span class="token comment">// AFP (Apple Filing Protocol)</span>
+    <span class="token number">554</span><span class="token punctuation">,</span>    <span class="token comment">// rtsp</span>
+    <span class="token number">556</span><span class="token punctuation">,</span>    <span class="token comment">// remotefs</span>
+    <span class="token number">563</span><span class="token punctuation">,</span>    <span class="token comment">// nntp+ssl</span>
+    <span class="token number">587</span><span class="token punctuation">,</span>    <span class="token comment">// smtp (rfc6409)</span>
+    <span class="token number">601</span><span class="token punctuation">,</span>    <span class="token comment">// syslog-conn (rfc3195)</span>
+    <span class="token number">636</span><span class="token punctuation">,</span>    <span class="token comment">// ldap+ssl</span>
+    <span class="token number">989</span><span class="token punctuation">,</span>    <span class="token comment">// ftps-data</span>
+    <span class="token number">990</span><span class="token punctuation">,</span>    <span class="token comment">// ftps</span>
+    <span class="token number">993</span><span class="token punctuation">,</span>    <span class="token comment">// ldap+ssl</span>
+    <span class="token number">995</span><span class="token punctuation">,</span>    <span class="token comment">// pop3+ssl</span>
+    <span class="token number">1719</span><span class="token punctuation">,</span>   <span class="token comment">// h323gatestat</span>
+    <span class="token number">1720</span><span class="token punctuation">,</span>   <span class="token comment">// h323hostcall</span>
+    <span class="token number">1723</span><span class="token punctuation">,</span>   <span class="token comment">// pptp</span>
+    <span class="token number">2049</span><span class="token punctuation">,</span>   <span class="token comment">// nfs</span>
+    <span class="token number">3659</span><span class="token punctuation">,</span>   <span class="token comment">// apple-sasl / PasswordServer</span>
+    <span class="token number">4045</span><span class="token punctuation">,</span>   <span class="token comment">// lockd</span>
+    <span class="token number">5060</span><span class="token punctuation">,</span>   <span class="token comment">// sip</span>
+    <span class="token number">5061</span><span class="token punctuation">,</span>   <span class="token comment">// sips</span>
+    <span class="token number">6000</span><span class="token punctuation">,</span>   <span class="token comment">// X11</span>
+    <span class="token number">6566</span><span class="token punctuation">,</span>   <span class="token comment">// sane-port</span>
+    <span class="token number">6665</span><span class="token punctuation">,</span>   <span class="token comment">// Alternate IRC [Apple addition]</span>
+    <span class="token number">6666</span><span class="token punctuation">,</span>   <span class="token comment">// Alternate IRC [Apple addition]</span>
+    <span class="token number">6667</span><span class="token punctuation">,</span>   <span class="token comment">// Standard IRC [Apple addition]</span>
+    <span class="token number">6668</span><span class="token punctuation">,</span>   <span class="token comment">// Alternate IRC [Apple addition]</span>
+    <span class="token number">6669</span><span class="token punctuation">,</span>   <span class="token comment">// Alternate IRC [Apple addition]</span>
+    <span class="token number">6697</span><span class="token punctuation">,</span>   <span class="token comment">// IRC + TLS</span>
+    <span class="token number">10080</span>  <span class="token comment">// Amanda</span>
+</code></pre></div><p>当然了如果非要用也有办法突破限制，只是完全没必要<br> 最近又增加了10080，未来会不会有10086呀</p><p><strong>还好用我的是7000和8000系列</strong></p><p>ps: macOS 是不让用1024以下的端口</p><h3 id="参考"><a class="header-anchor" href="#参考" aria-hidden="true">#</a> 参考</h3><p><a href="https://chromium.googlesource.com/chromium/src.git/+/refs/heads/main/net/base/port_util.cc" target="_blank" rel="noopener noreferrer">https://chromium.googlesource.com/chromium/src.git/+/refs/heads/main/net/base/port_util.cc</a></p></div></div><footer class="page-footer" data-v-8fcebc32 data-v-5c96fb00><div class="edit" data-v-5c96fb00><div class="edit-link" data-v-5c96fb00 data-v-55695e90><!----></div></div><div class="updated" data-v-5c96fb00><!----></div></footer><!----><!--[--><!--]--></div></main></div><!----><!--]--><div class="site-footer"> MIT Licensed | Copyright © 2008- 2021 <a class="vitepress" href="https://fangying.dev">fangying.dev</a><br> Powered by <a class="vitepress" target="_blank" href="//vitepress.vuejs.org/">VitePress</a></div><!--]--></div>
+    <script>__VP_HASH_MAP__ = JSON.parse("{\"index.md\":\"76ed5f94\",\"page_2.md\":\"230d4552\",\"pages_about.md\":\"c4b35de0\",\"pages_archives.md\":\"4d866cec\",\"pages_tags.md\":\"a981d919\",\"posts_al_fibonacci.md\":\"52602a80\",\"posts_al_path_sum.md\":\"4f5ec286\",\"posts_chrome_unsafe_port.md\":\"4e352b41\",\"posts_ds_binary_search_tree.md\":\"495fd668\",\"posts_gitk_retina.md\":\"867d9488\",\"posts_js_slice.md\":\"583f576b\",\"posts_macos_file_permission.md\":\"9ca8c12c\",\"posts_mycomputers.md\":\"8d0b9696\",\"posts_psd_size_reduce.md\":\"34e37d66\",\"posts_safari_date.md\":\"8f457a2e\",\"posts_smartmontools.md\":\"7a893287\",\"posts_travis_ci.md\":\"4d8f3111\",\"posts_treeshaking.md\":\"5070dd74\",\"posts_ts_covariance_contravariance.md\":\"49602c06\",\"posts_ts_infer.md\":\"a83db7a7\",\"posts_vitepress-first.md\":\"e5d30aef\",\"posts_vue_optimize.md\":\"1e6cf264\",\"posts_write_36.md\":\"e8cdcd52\",\"posts_write_async_scheduler.md\":\"4e97e21c\",\"posts_zsh_history.md\":\"f63e8645\"}")</script>
+    <script type="module" async src="/assets/app.76f0977f.js"></script>
+  </body>
+</html>
