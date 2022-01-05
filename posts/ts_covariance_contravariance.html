@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>TS之协变逆变 | fangying.dev</title>
     <meta name="description" content="深入学习Typescript的关键特性之 Covariance and contravariance">
-    <link rel="stylesheet" href="/assets/style.5353b4e7.css">
-    <link rel="modulepreload" href="/assets/Home.22b57e8b.js">
-    <link rel="modulepreload" href="/assets/app.90190422.js">
-    <link rel="modulepreload" href="/assets/posts_ts_covariance_contravariance.md.b6b00deb.lean.js">
+    <link rel="stylesheet" href="/assets/style.1b4cf8d5.css">
+    <link rel="modulepreload" href="/assets/Home.5df89274.js">
+    <link rel="modulepreload" href="/assets/app.2ff578a9.js">
+    <link rel="modulepreload" href="/assets/posts_ts_covariance_contravariance.md.bc26ad17.lean.js">
     
     <meta name="twitter:title" content="TS之协变逆变 | fangying.dev">
   <meta property="og:title" content="TS之协变逆变 | fangying.dev">
@@ -47,9 +47,9 @@ type <span class="token function-variable function">DogFn</span> <span class="to
 animalFn <span class="token operator">=</span> dogFn<span class="token punctuation">;</span>
 <span class="token comment">// 这样可以 也就是放在函数参数上的话 函数之间的关系逆变了</span>
 dogFn <span class="token operator">=</span> animalFn<span class="token punctuation">;</span>
-</code></pre></div><h2 id="双向协变" tabindex="-1">双向协变 <a class="header-anchor" href="#双向协变" aria-hidden="true">#</a></h2><p>Ts在函数参数的比较中实际上默认采取的策略是双向协变：只有当源函数参数能够赋值给目标函数或者反过来时才能赋值成功。</p><p>如果害怕调用出问题，可以通过<code>tsconfig.js</code>中修改<code>strictFunctionType</code>属性来严格控制协变和逆变。</p></div></div><footer class="page-footer" data-v-8fcebc32 data-v-5c96fb00><div class="edit" data-v-5c96fb00><div class="edit-link" data-v-5c96fb00 data-v-55695e90><!----></div></div><div class="updated" data-v-5c96fb00><!----></div></footer><!----><!--[--><!--]--></div></main></div><!----><!--]--><div class="site-footer"> MIT Licensed | Copyright © 2008- 2021 <a class="vitepress" href="https://fangying.dev">fangying.dev</a><br> Powered by <a class="vitepress" target="_blank" href="//vitepress.vuejs.org/">VitePress</a></div><!--]--></div>
-    <script>__VP_HASH_MAP__ = JSON.parse("{\"index.md\":\"18322659\",\"page_2.md\":\"3c1b5e61\",\"page_3.md\":\"ea9a3f36\",\"pages_about.md\":\"a8c67e46\",\"pages_archives.md\":\"17e0ec5f\",\"pages_tags.md\":\"93fafdff\",\"posts_al_fibonacci.md\":\"a95632dd\",\"posts_al_path_sum.md\":\"7db20786\",\"posts_chrome_unsafe_port.md\":\"61ee1129\",\"posts_ds_binary_search_tree.md\":\"59699acd\",\"posts_gitk_retina.md\":\"95e1d24f\",\"posts_hsts_307.md\":\"03c78a47\",\"posts_js_slice.md\":\"2a6cc787\",\"posts_macos11_smooth_font.md\":\"80e57855\",\"posts_macos_file_permission.md\":\"0bab3e77\",\"posts_macos_keynote_yahei.md\":\"f51f92be\",\"posts_mycomputers.md\":\"57b8b4a3\",\"posts_psd_size_reduce.md\":\"ef929409\",\"posts_safari_date.md\":\"cb1c3a19\",\"posts_smartmontools.md\":\"fdbe101a\",\"posts_travis_ci.md\":\"62621adc\",\"posts_treeshaking.md\":\"0bd7c5a7\",\"posts_ts_covariance_contravariance.md\":\"b6b00deb\",\"posts_ts_infer.md\":\"ed1cc134\",\"posts_vitepress-first.md\":\"738b1548\",\"posts_vue_optimize.md\":\"9b02001e\",\"posts_write_36.md\":\"46028682\",\"posts_write_async_scheduler.md\":\"22329815\",\"posts_zsh_history.md\":\"d8902d98\"}")</script>
-    <script type="module" async src="/assets/app.90190422.js"></script>
+</code></pre></div><h2 id="双向协变" tabindex="-1">双向协变 <a class="header-anchor" href="#双向协变" aria-hidden="true">#</a></h2><p>Ts在函数参数的比较中实际上默认采取的策略是双向协变：只有当源函数参数能够赋值给目标函数或者反过来时才能赋值成功。</p><p>如果害怕调用出问题，可以通过<code>tsconfig.js</code>中修改<code>strictFunctionType</code>属性来严格控制协变和逆变。</p></div></div><footer class="page-footer" data-v-8fcebc32 data-v-5c96fb00><div class="edit" data-v-5c96fb00><div class="edit-link" data-v-5c96fb00 data-v-55695e90><!----></div></div><div class="updated" data-v-5c96fb00><!----></div></footer><!----><!--[--><!--]--></div></main></div><!----><!--]--><div class="site-footer"> MIT Licensed | Copyright © 2021-2022 <a class="vitepress" href="https://fangying.dev">fangying.dev</a><br> Powered by <a class="vitepress" target="_blank" href="//vitepress.vuejs.org/">VitePress</a></div><!--]--></div>
+    <script>__VP_HASH_MAP__ = JSON.parse("{\"index.md\":\"7097dfbc\",\"page_2.md\":\"90e2ddc9\",\"page_3.md\":\"1f480092\",\"pages_about.md\":\"b1481581\",\"pages_archives.md\":\"5092d589\",\"pages_tags.md\":\"41bd9fe5\",\"posts_al_fibonacci.md\":\"b865502c\",\"posts_al_path_sum.md\":\"fd7724dd\",\"posts_chrome_unsafe_port.md\":\"6cc0f078\",\"posts_ds_binary_search_tree.md\":\"828ee2b9\",\"posts_gitk_retina.md\":\"04c5fee8\",\"posts_hsts_307.md\":\"25080585\",\"posts_js_slice.md\":\"bdb4bcc2\",\"posts_macos11_smooth_font.md\":\"e92900c9\",\"posts_macos_file_permission.md\":\"5b52c073\",\"posts_macos_keynote_yahei.md\":\"bb2f6f68\",\"posts_mycomputers.md\":\"6bc1339b\",\"posts_psd_size_reduce.md\":\"d37db43a\",\"posts_safari_date.md\":\"4a2fe6df\",\"posts_smartmontools.md\":\"6c056382\",\"posts_travis_ci.md\":\"4e475f6a\",\"posts_treeshaking.md\":\"9a04ae10\",\"posts_ts_covariance_contravariance.md\":\"bc26ad17\",\"posts_ts_infer.md\":\"1e5ca75c\",\"posts_vitepress-first.md\":\"8022219d\",\"posts_vue_optimize.md\":\"08a120e1\",\"posts_write_36.md\":\"1b75cb7c\",\"posts_write_async_scheduler.md\":\"49619fb3\",\"posts_zsh_history.md\":\"5aca2c77\"}")</script>
+    <script type="module" async src="/assets/app.2ff578a9.js"></script>
     
   </body>
 </html>
