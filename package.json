@@ -1,5 +1,5 @@
 {
-    "name": "fangying.dev",
+    "name": "xining.me",
     "version": "1.0.0",
     "description": "",
     "main": "index.js",
@@ -12,10 +12,10 @@
     "author": "",
     "license": "ISC",
     "devDependencies": {
-        "fs-extra": "^10.0.0",
-        "globby": "^11.0.4",
+        "fs-extra": "^10.0.1",
+        "globby": "^11.1.0",
         "gray-matter": "^4.0.3",
-        "prettier": "^2.4.1",
-        "vitepress": "^0.20.0"
+        "prettier": "^2.6.2",
+        "vitepress": "^0.22.3"
     }
 }

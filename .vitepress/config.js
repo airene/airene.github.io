@@ -4,12 +4,12 @@ async function config() {
     const pageSize = 10
     await generatePaginationPages(pageSize)
     return {
-        title: 'fangying.dev',
-        description: 'fangying.dev,half code,half designer',
+        title: 'xining.me',
+        description: 'xining.me,half code,half designer',
         themeConfig: {
             posts: await getPosts(),
             pageSize: pageSize,
-            website: 'https://fangying.dev', //copyright link
+            website: 'https://xining.me', //copyright link
             comment: {
                 repo: 'airene/airene.github.io',
                 themes: 'github-light',
