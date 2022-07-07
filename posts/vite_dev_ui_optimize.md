@@ -25,6 +25,9 @@ description: 开发环境ui框架库使用vite，启用按需引入特性时导�
 下午2:45:49 [vite] ✨ optimized dependencies changed. reloading
 
 ```
+## 本质原因
+慢主要是因为less编译慢导致的，尤大有回答这个问题，在下面的参考资料有
+
 ## 解决方案
 
 ### 解决方案1
@@ -63,3 +66,7 @@ plugins: [
 PS:  
 1、方案2相比 https://github.com/antfu/unplugin-vue-components/issues/361 这个文章中的做了两个小优化  
 2、使用unplugin-vue-components 无法发现 $message 导致样式错乱需要手动引入这种问题不在本篇讨论范围 
+
+## 参考
+https://github.com/antfu/unplugin-vue-components/issues/361  
+https://carljin.com/vite-resolve-request-files-a-ton **重要**
