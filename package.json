@@ -16,6 +16,6 @@
         "globby": "^11.1.0",
         "gray-matter": "^4.0.3",
         "prettier": "^2.6.2",
-        "vitepress": "^0.22.3"
+        "vitepress": "^1.0.0-alpha.15"
     }
 }

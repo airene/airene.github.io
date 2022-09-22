@@ -4,12 +4,11 @@
             <div class="list-li">
                 <a :href="withBase(article.regularPath)"> {{ article.frontMatter.title }}</a>
             </div>
-            <time datetime="2020-10-25" class="date">
+            <time class="date">
                 {{ article.frontMatter.date }}
             </time>
         </div>
-        <p class="describe">
-            {{ article.frontMatter.description }}
+        <p class="describe" v-html="article.frontMatter.description">
         </p>
     </div>
 
@@ -36,7 +35,7 @@ const props = defineProps({
 
 <style scoped>
 .list {
-    border-bottom: 1px dashed var(--c-divider-light);
+    border-bottom: 1px dashed var(--vp-c-divider);
     padding: 1rem 0 0 0;
 }
 .list-header {
@@ -56,7 +55,7 @@ const props = defineProps({
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 3;
     overflow: hidden;
-    color: #71717a;
+    color: var(--vp-c-text-2);
     margin: 0.625rem 0 1rem;
     line-height: 1.5rem;
 }
@@ -71,13 +70,13 @@ const props = defineProps({
     height: 28px;
     text-align: center;
     line-height: 28px;
-    border: 1px var(--c-divider-light) solid;
+    border: 1px var(--vp-c-divider-light) solid;
     border-right: none;
 }
 .link.active {
-    background: var(--c-brand);
+    background: var(--vp-c-text-1);
     color: #fff;
-    border: 1px solid var(--c-brand) !important;
+    border: 1px solid var(--vp-c-text-1) !important;
 }
 .link:first-child {
     border-bottom-left-radius: 3px;
@@ -86,7 +85,7 @@ const props = defineProps({
 .link:last-child {
     border-bottom-right-radius: 3px;
     border-top-right-radius: 3px;
-    border-right: 1px var(--c-divider-light) solid;
+    border-right: 1px var(--vp-c-divider-light) solid;
 }
 
 @media screen and (max-width: 720px) {
