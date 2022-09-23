@@ -6,7 +6,7 @@ tags:
 - keynote
 description: macOS keynote 微软雅黑如何加粗
 ---
-# macOS keynote 微软雅黑如何加粗
+# {{ $frontmatter.title }}
 
 喜欢纯净的系统，mac上的办公套件足够一般场景了，不喜欢在macOS上安装office套件，但一直发现一个问题就是keynote用微软雅黑字体不能加粗，有时候给别人导出PPT很是尴尬。
 

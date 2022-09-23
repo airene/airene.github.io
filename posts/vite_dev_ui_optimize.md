@@ -1,11 +1,13 @@
 ---
 date: 2022-07-07
-title: vite开发环境ui框架库加载优化
+title: vite 开发环境UI框架库加载优化
 tags:
-- vite,ui framework
+- vite
+- ui 
+- framework
 description: 开发环境ui框架库使用vite，启用按需引入特性时导致optimizeDeps.include失效
 ---
-# vite开发环境引用ui框架库优化
+# {{ $frontmatter.title }}
 
 ## 表现
 以ant-design-vue来举例，其他ui库同样有问题  

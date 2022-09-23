@@ -5,7 +5,7 @@ tags:
 - computer
 description: 从上学以来买过的电脑们
 ---
-# 我的每一台电脑
+# {{ $frontmatter.title }}
 2003年大一下学期的时候购的人生第一台电脑。4.3K
 CPU  P4 2.4G 内存 256M  显卡128M 硬盘 80G 显示器 LG CRT
 

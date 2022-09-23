@@ -1,10 +1,10 @@
 ---
 date: 2017-05-21
-title: 36进制转换
+title: 三十六进制转换
 tags:
 - 手撕
 ---
-# 36进制转换
+# {{ $frontmatter.title }}
 ```js
 function arr36() {
     let ret = []

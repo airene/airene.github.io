@@ -1,11 +1,11 @@
 ---
 date: 2020-03-02
-title: 基于async和await的异步调度器
+title: 基于 async 和 await 的异步调度器
 tags:
 - 手撕
 description: 实现一个限制并发的异步调度器
 ---
-# 基于async和await的异步调度器
+# {{ $frontmatter.title }}
 
 - 可以通过初始化设置并发数
 - **巧妙的地方就在resolve什么时候执行上**

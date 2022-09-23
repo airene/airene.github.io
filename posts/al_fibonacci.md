@@ -1,11 +1,11 @@
 ---
 date: 2017-04-26
-title: 斐波那契数列
+title: 斐波那契数列的JS实现
 tags:
 - 算法
 description: 斐波那契数列的几种实现
 ---
-# 斐波那契数列的js实现
+# {{ $frontmatter.title }}
 
 ## 普通实现
 复杂度O(2**n)

@@ -1,12 +1,12 @@
 ---
 date: 2021-09-04
-title: 类数组的[].slice.call和Array.prototype.slice.call有什么区别
+title: 类数组的 [].slice.call 和 Array.prototype.slice.call
 tags:
 - js
 - 性能
-description: 测试一下[].slice.call和Array.prototype.slice.call比较
+description: 测试一下 [].slice.call和Array.prototype.slice.call比较
 ---
-# 类数组的[].slice.call和Array.prototype.slice.call有什么区别
+# {{ $frontmatter.title }}
 
 做一个不是很全面的测试，先说结论
 - 两者是同一个东西 比如 [].slice===Array.prototype.slice //true

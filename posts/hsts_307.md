@@ -1,12 +1,12 @@
 ---
 date: 2021-09-17
-title: hsts??,httpcode,302,303,307
+title: Hsts，httpcode - 302 303 307
 tags:
 - httpcode
 - hsts
 description: 没见过hsts是个什么东东，用一个jsdelivr的接口,发现的307和响应header里面有hsts 
 ---
-# hsts是啥,httpcode,302,303,307
+# {{ $frontmatter.title }}
 
 ## 3xx code
 - 301 永久性跳转 http1.0

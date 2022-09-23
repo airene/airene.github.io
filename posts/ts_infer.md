@@ -1,11 +1,11 @@
 ---
 date: 2021-08-21
-title: ts之infer使用
+title: ts 之 infer 使用
 tags:
 - ts
 description: 看到infer到时候就懵了，从网上找到文章基本都讲都不是很清楚，至少我看起来不是很清楚
 ---
-# ts之infer的理解
+# {{ $frontmatter.title }}
 
 ## 前提条件 & 理解关键
 - `infer` 在类型计算或者推导的时候使用
