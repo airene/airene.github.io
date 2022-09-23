@@ -4,7 +4,7 @@ title: 类数组的 [].slice.call 和 Array.prototype.slice.call
 tags:
 - js
 - 性能
-description: 测试一下 [].slice.call和Array.prototype.slice.call比较
+description: 测试一下 [].slice.call 和 Array.prototype.slice.call比较
 ---
 # {{ $frontmatter.title }}
 
