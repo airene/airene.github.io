@@ -11,4 +11,4 @@ const { theme } = useData();
 const pageSize = theme.value.pageSize;
 const posts = theme.value.posts.slice(0,10)
 </script>
-<Page :posts="posts" :pageCurrent="1" :pagesNum="3" />
+<Page :posts="posts" :pageCurrent="1" :pagesNum="4" />
