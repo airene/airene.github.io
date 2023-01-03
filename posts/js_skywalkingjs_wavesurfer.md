@@ -28,7 +28,7 @@ https://github.com/apache/skywalking-client-js/commit/f12941ba2d91d8d38632589424
 ## 参考
  - https://developer.mozilla.org/zh-CN/docs/Web/API/fetch
  - https://github.com/katspaugh/wavesurfer.js/blob/master/src/util/fetch.js
- - wavesurfer version is 6.4.0的fctch.js line 122,148
+ - wavesurfer version is 6.4.0的fetch.js line 122,148
 
 
 

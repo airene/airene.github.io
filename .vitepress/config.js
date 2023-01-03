@@ -1,45 +1,45 @@
-const { getPosts, generatePaginationPages } = require('./theme/serverUtils')
+import { defineConfig } from 'vitepress'
+import { getPosts } from './theme/serverUtils'
 
-async function config() {
-    const pageSize = 10
-    await generatePaginationPages(pageSize)
-    return {
-        title: 'ti.bi',
-        description: 'ti.bi,half code,half designer',
-        base:'/',
-        ignoreDeadLinks:true,
-        themeConfig: {
-            posts: await getPosts(),
-            pageSize: pageSize,
-            website: 'https://ti.bi', //copyright link
-            comment: {
-                repo: 'airene/airene.github.io',
-                themes: 'github-light',
-                issueTerm: 'pathname'
-            },
-            nav: [
-                { text: 'Home', link: '/' },
-                { text: 'Archives', link: '/pages/archives' },
-                { text: 'Tags', link: '/pages/tags' },
-                { text: 'About', link: '/pages/about' }
-                // { text: 'Airene', link: 'http://airene.net' }  -- External link test
-            ],
-            //outline:[2,3],
-            outlineTitle:'文章摘要',
-            socialLinks:[{ icon: 'github', link: 'https://github.com/airene/vitepress-blog-pure' }],
-        },
-        srcExclude: ['README.md'], // exclude the README.md , needn't to compiler
+//每页的文章数量
+const pageSize = 10
 
-        vite: {
-            //build: { minify: false }
-            server: { port: 5000 },
+export default defineConfig({
+    title: 'ti.bi',
+    description: 'ti.bi,half code,half designer',
+    base:'/',
+    cacheDir: './node_modules/vitepress_cache',
+    ignoreDeadLinks: true,
+    themeConfig: {
+        posts: await getPosts(pageSize),
+        website: 'https://github.com/airene/vitepress-blog-pure', //copyright link
+        // 评论的仓库地址
+        comment: {
+            repo: 'airene/vitepress-blog-pure',
+            themes: 'github-light',
+            issueTerm: 'pathname'
         },
-        /*
+        nav: [
+            { text: 'Home', link: '/' },
+            { text: 'Archives', link: '/pages/archives' },
+            { text: 'Tags', link: '/pages/tags' },
+            { text: 'About', link: '/pages/about' }
+            // { text: 'Airene', link: 'http://airene.net' }  -- External link test
+        ],
+
+        //outline:[2,3],
+        outlineTitle: '文章摘要',
+        socialLinks: [{ icon: 'github', link: 'https://github.com/airene/vitepress-blog-pure' }]
+    },
+    srcExclude: ['README.md'], // exclude the README.md , needn't to compiler
+
+    vite: {
+        //build: { minify: false }
+        server: { port: 5000 }
+    }
+    /*
       optimizeDeps: {
           keepNames: true
       }
       */
-    }
-}
-
-module.exports = config()
+})
