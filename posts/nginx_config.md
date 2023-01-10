@@ -54,6 +54,10 @@ move path:\nginx\logs\error.log PATH:\nginx\logs\error_%ddd%.log
 net start nginx
 @echo on
 ```
+命令方式添加成计划任务
+```ps
+schtasks /create /sc daily /st 01:03 /tn "描述" /tr "PATH:\bak\export_db.bat"
+```
 ## 直接使用ip不让问题
 如果不做特殊处理，使用ip访问，默认会找"第一个"网站打开，最新的可能是默认nginx页面，反正还是有的打开，这样会别人随便解析ip，有风险，而且不管是返回啥都比下面都方法的慢，我知道的最优雅的方式
 ```nginx
