@@ -5,7 +5,7 @@ tags:
 - windows server
 description: windows server, app store
 ---
-# {{ $frontmatter.title }}
+# 近期遇到的几个问题
 
 ## windows server 2022 在 i7 12700 启动蓝屏问题
 windows server 2022 刚装完没问题，等装完hyper-v后重启就稳定蓝屏，最后google发现是hyper-v对大小核支持的不好...  

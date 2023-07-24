@@ -5,7 +5,7 @@ tags:
 - 算法
 description: 斐波那契数列的几种实现
 ---
-# {{ $frontmatter.title }}
+# 斐波那契数列的JS实现
 
 ## 普通实现
 复杂度O(2**n)

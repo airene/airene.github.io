@@ -6,7 +6,7 @@ tags:
 - hsts
 description: 没见过hsts是个什么东东，用一个jsdelivr的接口,发现的307和响应header里面有hsts 
 ---
-# {{ $frontmatter.title }}
+# Hsts，httpcode - 302 303 307
 
 ## 3xx code
 - 301 永久性跳转 http1.0

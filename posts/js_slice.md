@@ -6,7 +6,7 @@ tags:
 - 性能
 description: 测试一下 [].slice.call 和 Array.prototype.slice.call比较
 ---
-# {{ $frontmatter.title }}
+# 类数组的 [].slice.call 和 Array.prototype.slice.call
 
 做一个不是很全面的测试，先说结论
 - 两者是同一个东西 比如 [].slice===Array.prototype.slice //true

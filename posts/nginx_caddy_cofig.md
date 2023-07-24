@@ -6,7 +6,7 @@ tags:
 - caddy
 description: caddy简单的反向代理非常好实现，如果是稍微复杂点的，还真不知道caddy怎么写，查资料都不好查，官网翻了半天都没有，为了自动证书特性还是google到了，虽然知道底层用的是acme.sh的，还是不想额外单独自己装
 ---
-# {{ $frontmatter.title }}
+# nginx 和 caddy 反向代理的区别
 
 之前提到过https://www.ti.bi/posts/caddy_auto_tls.html 这个  
 这次就真的换了。

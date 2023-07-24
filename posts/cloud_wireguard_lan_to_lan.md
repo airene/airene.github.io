@@ -5,7 +5,7 @@ tags:
 - wireguard
 description: 网上绝大部分教程都是openwrt组各种模式的网，其中也有lan to lan模式，云服务器的方式还是有些不太一样，尤其是正式环境 
 ---
-# {{ $frontmatter.title }}
+# 云厂商不同region之间的wireguard LAN to LAN模式
 
 ## 前提
 本文的环境和条件：

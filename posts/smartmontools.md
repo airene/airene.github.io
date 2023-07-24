@@ -5,7 +5,7 @@ tags:
 - macOS
 description: 硬盘使用统计工具 brew安装
 ---
-# {{ $frontmatter.title }}
+# smartmontools
 Temperature: 33 Celsius   
 Available Spare: 100%  
 Available Spare Threshold: 99%  

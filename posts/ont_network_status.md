@@ -6,7 +6,7 @@ tags:
 - 光猫
 description: 给光猫安装一个网速监控
 ---
-# {{ $frontmatter.title }}
+# 给华为HN8346x6安装一个轻量版的 server_status
 
 ## 前提摘要
 

@@ -7,7 +7,7 @@ tags:
 description: treeshaking最早由rollup实现，但是因为js语言本身的关系，和想象中差别还是挺大的
 ---
 
-# {{ $frontmatter.title }}
+# 你以为的 treeshaking 可能不是你以为的 treeshaking
 
 一个ui库的打包过程避免少不了treeshaking的内容，因为对于全局引入，组件库本身越大shake的优势越明显，
 

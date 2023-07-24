@@ -6,7 +6,7 @@ tags:
 description: 这个是vitepress官方的配置加了些优化，主要是能提升构建速度
 ---
 
-# {{ $frontmatter.title }}
+# travis_ci 自动部署 vitepress
 
 这个是vitepress官方的配置加了些优化，主要是能提升构建速度
 

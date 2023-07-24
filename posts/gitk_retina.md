@@ -4,7 +4,7 @@ title: 解决macOS gitk字体retina display
 tags:
 - macOS
 ---
-# {{ $frontmatter.title }}
+# 解决macOS gitk字体retina display
 开启SIP;  
 修改/System/Library/Frameworks/Tk.framework/Versions/Current/Resources/Wish.app/Contents/Info.plist文件;  
 在最后增加

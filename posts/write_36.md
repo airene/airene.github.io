@@ -4,7 +4,7 @@ title: 三十六进制转换
 tags:
 - 手撕
 ---
-# {{ $frontmatter.title }}
+# 三十六进制转换
 ```js
 function arr36() {
     let ret = []

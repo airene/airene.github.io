@@ -5,7 +5,7 @@ description: 深入学习Typescript的关键特性之 Covariance and contravaria
 tags:
 - ts
 ---
-# {{ $frontmatter.title }}
+# Typescirpt 之协变逆变
 typescript除了静态类型检查，其实还有一各特点说的很恰当，就是`类型编程`，这点与java对比的话，比java灵活的多。
 如果有面向对象编程基础的话，看泛型并不难，从教程中看到协变、逆变这两个词就有点高大上，再看wiki定义
 > 协变与逆变(Covariance and contravariance )是在计算机科学中，描述具有父/子型别关系的多个型别通过型别构造器、构造出的多个复杂型别之间是否有父/子型别关系的用语。
