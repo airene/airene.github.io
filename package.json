@@ -14,8 +14,8 @@
     "type": "module",
     "devDependencies": {
         "fs-extra": "^11.2.0",
-        "globby": "^14.0.0",
+        "globby": "^14.0.1",
         "gray-matter": "^4.0.3",
-        "vitepress": "1.0.0-rc.32"
+        "vitepress": "1.0.0-rc.45"
     }
 }
