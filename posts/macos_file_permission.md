@@ -1,6 +1,7 @@
 ---
 date: 2017-03-29
 title: 全新安装macOS系统考回的文件权限变成777修复
+category: macOS
 description: 大版本升级喜欢全格之后升级，遇到的问题是文件系统权限就全变777了，从网上找到了解决办法
 tags:
 - macOS

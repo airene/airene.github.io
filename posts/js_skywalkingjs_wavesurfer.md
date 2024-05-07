@@ -1,6 +1,7 @@
 ---
 date: 2022-11-15
 title: 从skywalkingjs和wavesurfer.js同时使用后者无法工作到给官方提交一个PR
+category: js
 tags:
 - js
 description: 一个项目用到了wavesurfer.js，项目又在之前引用了skywalking做链路追踪，结果就是二进制流的wave图形加载不出来，控制台没有任何报错

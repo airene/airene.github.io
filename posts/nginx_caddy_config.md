@@ -1,6 +1,7 @@
 ---
 date: 2023-03-26
 title: nginx 和 caddy 反向代理的区别
+category: caddy
 tags:
 - nginx
 - caddy

@@ -1,6 +1,7 @@
 ---
 date: 2021-09-04
 title: 类数组的 [].slice.call 和 Array.prototype.slice.call
+category: js
 tags:
 - js
 - 性能

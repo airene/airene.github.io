@@ -1,6 +1,7 @@
 ---
 date: 2021-08-02
 title: 你以为的 treeshaking 可能不是你以为的 treeshaking
+category: js
 tags:
 - treeshaking
 - esm

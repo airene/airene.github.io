@@ -1,6 +1,7 @@
 ---
 date: 2020-02-20
 title: vue性能优化的9个技巧
+category: js
 tags:
 - vue
 description: 业务系统可能不太在乎性能，写框架就会要求高不少

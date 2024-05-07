@@ -1,6 +1,7 @@
 ---
 date: 2021-05-20
 title: .zsh_history 历史记录优化
+category: macOS
 tags:
 - macOS
 description: 历史重复的命令太多了，不用grep都不太好找，好在可以用shell把相同的去掉

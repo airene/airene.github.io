@@ -1,6 +1,7 @@
 ---
 date: 2023-02-04
 title: 是时候尝试一下Caddy了
+category: caddy
 tags:
 - caddy
 description: Caddy v2，免费且自动SSL证书续期，配置文件及其简约，它很香

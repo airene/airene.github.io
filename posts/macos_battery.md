@@ -1,6 +1,7 @@
 ---
 date: 2022-03-03
 title: macOS电池掉电，一晚上就没电
+category: macOS
 tags:
 - macOS
 description: macOS 12.2 蓝牙bug我遇到了，一晚上肯定没电

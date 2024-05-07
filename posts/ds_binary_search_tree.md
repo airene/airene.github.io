@@ -1,6 +1,7 @@
 ---
 date: 2017-08-01
 title: 数据结构 - 二叉搜索树以及常见方法
+category: 面试
 tags:
 - 数据结构
 description: 汇总了常见二叉树的操作或者查询方法

@@ -1,6 +1,7 @@
 ---
 date: 2022-09-18
 title: 给华为HN8346x6安装一个轻量版的 server_status
+category: linux
 tags:
 - ont
 - 光猫

@@ -1,6 +1,7 @@
 ---
 date: 2021-08-19
 title: safari 中的 new Date传参的兼容性问题
+category: js
 tags:
 - js
 - safari

@@ -1,6 +1,7 @@
 ---
 date: 2024-03-06
 title: 最小化安装office 365
+category: windows
 tags:
 - windows11
 description: 连快捷方式都不要的福音 

@@ -1,6 +1,7 @@
 ---
 date: 2023-01-10
 title: Nginx中一些不常见但是有用的配置和windows下的特殊处理
+category: nginx
 tags:
 - nginx
 description: 装上就能用，但是有些地方还是有一些个性化需求的，记录一下，也许别人也会用到，比如最优的让ip不能访问而不是打开"第一个"，代理下的静态文件关闭日志等

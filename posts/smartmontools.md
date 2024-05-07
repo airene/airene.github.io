@@ -1,6 +1,7 @@
 ---
 date: 2020-11-26
 title: smartmontools
+category: linux
 tags:
 - macOS
 description: 硬盘使用统计工具 brew安装

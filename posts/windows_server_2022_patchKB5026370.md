@@ -1,6 +1,7 @@
 ---
 date: 2023-05-16
 title: Windows Server 2022在KB5026370更新修复了一个重要的体验问题
+category: windows
 tags:
 - windows server
 description: 这下不用每次手动添加，也不需要启动时候加脚本了

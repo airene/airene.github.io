@@ -1,6 +1,7 @@
 ---
 date: 2022-12-18
 title: 近期遇到的几个问题
+category: windows
 tags:
 - windows server
 description: windows server, app store

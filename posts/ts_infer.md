@@ -1,5 +1,6 @@
 ---
 date: 2021-08-21
+category: js
 title: ts 之 infer 使用
 tags:
 - ts

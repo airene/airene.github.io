@@ -1,6 +1,7 @@
 ---
 date: 2019-06-06
 title: 我的每一台电脑
+category: windows
 tags:
 - computer
 description: 从上学以来买过的电脑们

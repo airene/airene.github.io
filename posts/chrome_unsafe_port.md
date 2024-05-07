@@ -1,6 +1,7 @@
 ---
 date: 2021-09-08
 title: Chrome默认的不让用的端口列表
+category: chrome
 tags:
 - chrome
 description: chrome的ERR_UNSAFE_PORT是怎么回事

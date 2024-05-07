@@ -1,6 +1,7 @@
 ---
 date: 2021-11-01
 title: macOS11之后开启平滑字体
+category: macOS
 tags:
 - macOS
 description: 从macOS11开始设置里面平滑字体没了，字体明显不舒服

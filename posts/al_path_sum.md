@@ -1,6 +1,7 @@
 ---
 date: 2017-08-07
 title: 路径总和问题 - 是否存在满足条件的路径
+category: 面试
 tags:
 - 算法
 description: 二叉树相关的算法 

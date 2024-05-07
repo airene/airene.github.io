@@ -1,6 +1,7 @@
 ---
 date: 2021-09-17
 title: Hsts，httpcode - 302 303 307
+category: http
 tags:
 - httpcode
 - hsts

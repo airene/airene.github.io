@@ -21,6 +21,7 @@ export default defineConfig({
         },
         nav: [
             { text: 'Home', link: '/' },
+            { text: 'Category', link: '/pages/category' },
             { text: 'Archives', link: '/pages/archives' },
             { text: 'Tags', link: '/pages/tags' },
             { text: 'About', link: '/pages/about' }
@@ -33,7 +34,7 @@ export default defineConfig({
         outlineTitle: '文章摘要',
         socialLinks: [{ icon: 'github', link: 'https://github.com/airene/vitepress-blog-pure' }]
     },
-    
+
     srcExclude: ['README.md'], // exclude the README.md , needn't to compiler
 
     vite: {

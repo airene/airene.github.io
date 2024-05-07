@@ -1,6 +1,7 @@
 ---
 date: 2017-03-31
 title: PSD文件减小体积
+category: photoshop
 tags:
 - photoshop
 description: 有时候一个psd文件有用的信息基本上没有，但是文件体积都到大几十M，搜了很多方法才找到这个神奇的函数

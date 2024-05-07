@@ -1,6 +1,7 @@
 ---
 date: 2017-04-26
 title: 斐波那契数列的JS实现
+category: 面试
 tags:
 - 算法
 description: 斐波那契数列的几种实现

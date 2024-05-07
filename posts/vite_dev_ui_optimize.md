@@ -1,6 +1,7 @@
 ---
 date: 2022-07-07
 title: vite 开发环境UI框架库加载优化
+category: js
 tags:
 - vite
 - ui

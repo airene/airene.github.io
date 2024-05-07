@@ -1,6 +1,7 @@
 ---
 date: 2022-10-29
 title: 解决NUC11阿斯加特峡谷 ubuntu22.04 RTL8168网卡驱动问题
+category: linux
 tags:
 - nuc11
 - RTL8168

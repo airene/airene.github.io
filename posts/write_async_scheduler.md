@@ -1,6 +1,7 @@
 ---
 date: 2020-03-02
 title: 基于 async 和 await 的异步调度器
+category: 面试
 tags:
 - 手撕
 description: 实现一个限制并发的异步调度器

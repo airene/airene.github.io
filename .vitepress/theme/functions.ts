@@ -2,6 +2,7 @@ type Post = {
     frontMatter: {
         date: string
         title: string
+        category: string
         tags: string[]
         description: string
     }
@@ -27,6 +28,22 @@ export function initTags(post: Post[]) {
     return data
 }
 
+export function initCategory(post: Post[]) {
+    const data: any = {}
+    for (let index = 0; index < post.length; index++) {
+        const element = post[index]
+        const category = element.frontMatter.category
+        if (category) {
+            if (data[category]) {
+                data[category].push(element)
+            } else {
+                data[category] = []
+                data[category].push(element)
+            }
+        }
+    }
+    return data
+}
 export function useYearSort(post: Post[]) {
     const data = []
     let year = '0'

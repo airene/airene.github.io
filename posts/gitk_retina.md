@@ -1,6 +1,7 @@
 ---
 date: 2016-09-26
 title: 解决macOS gitk字体retina display
+category: macOS
 tags:
 - macOS
 ---

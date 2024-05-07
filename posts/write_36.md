@@ -1,6 +1,7 @@
 ---
 date: 2017-05-21
 title: 三十六进制转换
+category: 面试
 tags:
 - 手撕
 ---
