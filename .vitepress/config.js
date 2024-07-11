@@ -5,7 +5,7 @@ import { getPosts } from './theme/serverUtils'
 const pageSize = 10
 
 export default defineConfig({
-    title: 'ti.bi',
+    title: 'TI.BI',
     description: 'ti.bi,half code,half designer',
     base:'/',
     cacheDir: './node_modules/vitepress_cache',
