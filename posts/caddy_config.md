@@ -1,0 +1,58 @@
+---
+date: 2024-10-10
+title: 记录一下caddy的log主要配置
+category: caddy
+tags:
+- caddy
+description: caddy的log和nginx不太一样，nginx属于“单行字符串”类型，caddy的核心宗旨就是json和metrics丰富
+---
+# 记录一下caddy的log主要配置
+
+```yaml
+{
+    admin off
+    email abc@gmail.com
+}
+(log) {
+    log main {
+        output file /var/log/caddy/{args[0]}/access.log {
+            roll_size 100MiB
+            roll_local_time
+            roll_keep_for 168h
+            roll_uncompressed
+        }
+        format filter {
+            wrap console {
+                time_format wall
+                duration_format ms
+            }
+            request>headers delete
+            request>remote_ip delete
+            request>remote_port delete
+            request>host delete
+            request>tls delete
+            resp_headers delete
+            bytes_read delete
+            user_id delete
+        }
+    }
+    @skip path_regexp \.(js|css|png|jpe?g|gif|ico|woff|otf|ttf|eot|svg|txt|pdf|docx?|xlsx?)$
+    log_skip @skip
+}
+ti.bi {
+    handle_path /api/* {
+        reverse_proxy localhost:8008
+    }
+    handle {
+        root * /home/www
+        try_files {path} /index.html
+        file_server
+        encode gzip
+    }
+    import log ti.bi
+}
+www.ti.bi {
+    redir https://ti.bi{uri} permanent
+}
+```
+
