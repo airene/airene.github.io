@@ -14,7 +14,7 @@ description: caddy的log和nginx不太一样，nginx属于“单行字符串”�
     email abc@gmail.com
 }
 (log) {
-    log main {
+    log {
         output file /var/log/caddy/{args[0]}/access.log {
             roll_size 100MiB
             roll_local_time
@@ -23,8 +23,10 @@ description: caddy的log和nginx不太一样，nginx属于“单行字符串”�
         }
         format filter {
             wrap console {
+                time_local
                 time_format wall
                 duration_format ms
+     
             }
             request>headers delete
             request>remote_ip delete
@@ -36,7 +38,7 @@ description: caddy的log和nginx不太一样，nginx属于“单行字符串”�
             user_id delete
         }
     }
-    @skip path_regexp \.(js|css|png|jpe?g|gif|ico|woff|otf|ttf|eot|svg|txt|pdf|docx?|xlsx?)$
+    @skip path_regexp \.(js|css|png|jpe?g|gif|ico|woff2?|otf|ttf|eot|svg|txt|pdf|docx?|xlsx?)$
     log_skip @skip
 }
 ti.bi {
