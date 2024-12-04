@@ -1,7 +1,7 @@
 ---
 date: 2024-11-12
 title: hyper-v如何将显卡直通到虚拟的linux vm中
-category: windows server
+category: windows
 tags:
 - windows
 - hyper-v
