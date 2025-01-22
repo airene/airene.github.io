@@ -49,7 +49,7 @@
     color: #888;
 }
 h1 {
-    font-size: 1.5rem !important;
+    font-size: 1.375rem !important;
     font-weight: 500 !important;
     padding-top: 14px;
 }
@@ -165,7 +165,7 @@ h3 {
 }
 
 .post-container {
-    color: var(--vp-c-text-2);
+    color: var(--vp-c-text-1);
     font-size: 0.9375rem;
     font-weight: 400;
 }

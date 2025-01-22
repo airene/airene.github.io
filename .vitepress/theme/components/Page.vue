@@ -42,8 +42,9 @@ const props = defineProps({
     justify-content: space-between;
 }
 .post-title {
-    font-size: 1.125rem;
+    font-size: 1.0625rem;
     font-weight: 500;
+    color: #000;
     margin: 0.1rem 0;
 }
 
@@ -53,7 +54,7 @@ const props = defineProps({
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 3;
     overflow: hidden;
-    color: var(--vp-c-text-2);
+    color: var(--vp-c-text-1);
     margin: 10px 0;
     line-height: 1.5rem;
 }
@@ -64,25 +65,17 @@ const props = defineProps({
 }
 .link {
     display: inline-block;
-    width: 24px;
+    width: 26px;
     text-align: center;
     border: 1px var(--vp-c-divider-light) solid;
     border-right: none;
     font-weight: 400;
+    border-radius: 20px;
 }
 .link.active {
     background: var(--vp-c-text-1);
     color: var(--vp-c-neutral-inverse);
     border: 1px solid var(--vp-c-text-1) !important;
-}
-.link:first-child {
-    border-bottom-left-radius: 2px;
-    border-top-left-radius: 2px;
-}
-.link:last-child {
-    border-bottom-right-radius: 2px;
-    border-top-right-radius: 2px;
-    border-right: 1px var(--vp-c-divider-light) solid;
 }
 
 @media screen and (max-width: 768px) {
