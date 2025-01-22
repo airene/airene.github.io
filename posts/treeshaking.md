@@ -5,7 +5,7 @@ category: js
 tags:
 - treeshaking
 - esm
-description: treeshaking最早由rollup实现，但是因为js语言本身的关系，和想象中差别还是挺大的
+description: treeshaking 最早由 rollup 实现，但是因为js语言本身的关系，和想象中差别还是挺大的
 ---
 
 # 你以为的 treeshaking 可能不是你以为的 treeshaking

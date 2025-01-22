@@ -1,12 +1,12 @@
 ---
 date: 2023-02-04
-title: 是时候尝试一下Caddy了
+title: 是时候尝试一下 Caddy 了
 category: caddy
 tags:
 - caddy
-description: Caddy v2，免费且自动SSL证书续期，配置文件及其简约，它很香
+description: Caddy v2，免费且自动 SSL 证书续期，配置文件及其简约，它很香
 ---
-# 是时候尝试一下Caddy了
+# 是时候尝试一下 Caddy 了
 ## 对Caddy的了解
 学习golang的时候看过，一直觉得离生产比较远，nginx在行业的地位不是三两年就能撼动的。现在v2版本已经出了2年多了，上生产肯定是没问题了。
 像介绍说的免费SSL自动续期，配置文件简洁这两条深得我心，小项目换这个很方便。

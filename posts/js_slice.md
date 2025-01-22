@@ -5,7 +5,7 @@ category: js
 tags:
 - js
 - 性能
-description: 测试一下 [].slice.call 和 Array.prototype.slice.call比较
+description: 测试一下 [].slice.call 和 Array.prototype.slice.call 比较
 ---
 # 类数组的 [].slice.call 和 Array.prototype.slice.call
 

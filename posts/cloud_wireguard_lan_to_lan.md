@@ -1,12 +1,12 @@
 ---
 date: 2023-09-26
-title: 云厂商不同region之间的wireguard LAN to LAN模式
+title: 云厂商不同 region 之间的 wireguard LAN to LAN 模式
 category: wireguard
 tags:
 - wireguard
-description: 网上绝大部分教程都是openwrt组各种模式的网，其中也有lan to lan模式，云服务器的方式还是有些不太一样，尤其是正式环境 
+description: 网上绝大部分教程都是 openwrt 组各种模式的网，其中也有 lan to lan 模式，云服务器的方式还是有些不太一样，尤其是正式环境 
 ---
-# 云厂商不同region之间的wireguard LAN to LAN模式
+# 云厂商不同 region 之间的 wireguard LAN to LAN 模式
 
 ## 前提
 本文的环境和条件：

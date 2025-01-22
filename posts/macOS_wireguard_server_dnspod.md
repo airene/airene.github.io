@@ -1,14 +1,14 @@
 ---
 date: 2024-12-30
-title: macOS下实现wireguard的access to lan和ddns都变成开机启动的服务
+title: macOS 下实现 wireguard 的 access to lan 和 ddns 都变成开机启动的服务
 category: macOS
 tags:
 - macOS
 - wireguard
 - ddns
-description: 有了mac mini m4，小米主机2022的1240p已经不香了，功耗还凑合，不是很大，但是风扇总是会时不时的转一会，风扇声音还挺大 
+description: 有了 mac mini m4 ，小米主机 2022 的 1240p 已经不香了，功耗还凑合，不是很大，但是风扇总是会时不时的转一会，风扇声音还挺大 
 ---
-# macOS下实现wireguard的access to lan和ddns都变成开机启动的服务
+# macOS 下实现 wireguard 的 access to lan 和 ddns 都变成开机启动的服务
 
 ## 前提
 小米迷你主机 ≈ intel nuc 12，一开始装的unraid，后来装的fnOS, 主要就是fnOS的开放性，很容易能安装wg和ddns常驻。

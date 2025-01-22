@@ -1,13 +1,13 @@
 ---
 date: 2021-08-19
-title: safari 中的 new Date传参的兼容性问题
+title: safari 中的 new Date 传参的兼容性问题
 category: js
 tags:
 - js
 - safari
-description: new Date()中有字符串
+description: new Date() 中有字符串
 ---
-# safari 中的 new Date传参的兼容性问题
+# safari 中的 new Date 传参的兼容性问题
 safari一直不是主力浏览器，今天一个系统的发现的macOS10.15 依然存在的一个new Date()兼容性问题
 
 ## 表现

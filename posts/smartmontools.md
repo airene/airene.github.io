@@ -4,7 +4,7 @@ title: smartmontools
 category: linux
 tags:
 - macOS
-description: 硬盘使用统计工具 brew安装
+description: 硬盘使用统计工具 brew 安装
 ---
 # smartmontools
 Temperature: 33 Celsius   

@@ -1,13 +1,13 @@
 ---
 date: 2024-11-12
-title: hyper-v如何将显卡直通到虚拟的linux vm中
+title: hyper-v 如何将显卡直通到虚拟的 linux vm 中
 category: windows
 tags:
 - windows
 - hyper-v
 description: 记录一下hyper-v如何直通dda的设备，显卡是tesla t4
 ---
-# hyper-v如何将显卡直通到虚拟的linux vm中
+# hyper-v 如何将显卡直通到虚拟的 linux vm 中
 
 环境：windows server 2016  
 问题：server版本不算新，算事最早支持的一代，再老就不行了，而且和windows的wsl那种显卡共享还不是一个概念，直通就是宿主看不到了，只有vm能看到  

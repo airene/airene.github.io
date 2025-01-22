@@ -2,7 +2,7 @@
 date: 2021-08-08
 title: Typescirpt 之协变逆变
 category: js
-description: 深入学习Typescript的关键特性之 Covariance and contravariance
+description: 深入学习 Typescript 的关键特性之 Covariance and contravariance
 tags:
 - ts
 ---

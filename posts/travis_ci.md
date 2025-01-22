@@ -4,7 +4,7 @@ title: travis_ci 自动部署 vitepress
 category: cicd
 tags:
 - travis
-description: 这个是vitepress官方的配置加了些优化，主要是能提升构建速度
+description: 这个是 vitepress 官方的配置加了些优化，主要是能提升构建速度
 ---
 
 # travis_ci 自动部署 vitepress

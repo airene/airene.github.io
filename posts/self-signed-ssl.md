@@ -1,13 +1,13 @@
 ---
 date: 2024-06-27
-title: macOS 自签一个825天有效期的SSL证书并实现macOS,iOS,windows都能安装
+title: macOS 自签一个 825 天有效期的SSL证书并实现 macOS,iOS,windows 都能安装
 category: macOS
 tags:
 - macOS
 - unraid
-description: unraid内网域名加一个有效期10年的ssl证书，没有证书理论上更快，但是总是有不安全的提示，好多网上的教程都没有实操性了，找到一个好用的总结发出来
+description: unraid 内网域名加一个有效期 10 年的 ssl 证书，没有证书理论上更快，但是总是有不安全的提示，好多网上的教程都没有实操性了，找到一个好用的总结发出来
 ---
-# 
+# macOS 自签一个 825 天有效期的SSL证书并实现 macOS,iOS,windows 都能安装
 ## 如何生成证书
 现在各大平台免费的ssl证书已经只有90天了，之前是1年。1年申请且部署一次还算不麻烦，90天就有点太频繁了。    
 目前个人生产环境前面用 caddy 代替 nginx ，可以自动续ssl证书，或者 nginx+acme 服务。  

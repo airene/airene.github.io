@@ -1,12 +1,12 @@
 ---
 date: 2022-11-15
-title: 从skywalkingjs和wavesurfer.js同时使用后者无法工作到给官方提交一个PR
+title: 从 skywalkingjs 和 wavesurfer.js 同时使用后者无法工作到给官方提交一个PR
 category: js
 tags:
 - js
-description: 一个项目用到了wavesurfer.js，项目又在之前引用了skywalking做链路追踪，结果就是二进制流的wave图形加载不出来，控制台没有任何报错
+description: 一个项目用到了 wavesurfer.js，项目又在之前引用了 skywalking 做链路追踪，结果就是二进制流的 wave 图形加载不出来，控制台没有任何报错
 ---
-# 从skywalkingjs和wavesurfer.js同时使用后者无法工作到给官方提交一个PR
+# 从 skywalkingjs 和 wavesurfer.js 同时使用后者无法工作到给官方提交一个PR
 
 ## 坑
  - skywalkingjs把一个正常的请求拦截了，和没请求一样，控制台一毛钱的错误或者警告输出都没有

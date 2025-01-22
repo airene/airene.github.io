@@ -1,13 +1,13 @@
 ---
 date: 2022-10-29
-title: 解决NUC11阿斯加特峡谷 ubuntu22.04 RTL8168网卡驱动问题
+title: 解决 NUC11 阿斯加特峡谷 ubuntu22.04 RTL8168 网卡驱动问题
 category: linux
 tags:
 - nuc11
 - RTL8168
-description: 即使到ubuntu的22版本，也没有正确安装RTL驱动，unraid的机器也有类似的问题，插资料好像是螃蟹卡的尿性，没有积极往内核集成，所以内核里只有一个能用不好用的r8169驱动，表现就是网速各种上不去
+description: 即使到 ubuntu 的 22 版本，也没有正确安装 RTL 驱动，unraid 的机器也有类似的问题，插资料好像是螃蟹卡的尿性，没有积极往内核集成，所以内核里只有一个能用不好用的 r8169 驱动，表现就是网速各种上不去
 ---
-# 解决NUC11阿斯加特峡谷 ubuntu22.04 RTL8168网卡驱动问题
+# 解决 NUC11 阿斯加特峡谷 ubuntu22.04 RTL8168 网卡驱动问题
 
 网上有两种解决办法，一个是从RTL下载最新的驱动自己编译，然后加载使用，比较繁琐，步骤比较多，我没尝试    
 可以参考：https://askubuntu.com/questions/1327697/ubuntu-20-04-ethernet-r8168  

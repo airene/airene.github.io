@@ -1,12 +1,12 @@
 ---
 date: 2021-09-08
-title: Chrome默认的不让用的端口列表
+title: Chrome 默认的不让用的端口列表
 category: chrome
 tags:
 - chrome
-description: chrome的ERR_UNSAFE_PORT是怎么回事
+description: chrome 的 ERR_UNSAFE_PORT 是怎么回事
 ---
-# Chrome默认的不让用的端口列表
+# Chrome 默认的不让用的端口列表
 如果本地工程太多，又需要同时启动，一般会指定不同的端口号  
 一个不注意就有可能遇到端口不能用或者不让用的情况
 

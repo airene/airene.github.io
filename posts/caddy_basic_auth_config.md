@@ -1,12 +1,12 @@
 ---
 date: 2025-01-10
-title: caddy的basic_auth在有reserve_proxy的情况下怎么一处配置，集体生效
+title: caddy 的 basic_auth 在有 reserve_proxy 的情况下怎么一处配置，集体生效
 category: caddy
 tags:
 - caddy
-description: 一个配置文件折腾了好久，gpt和类gpt和google都不太能搜到结果（误导居多），最后无意中还是gpt解决了
+description: 一个配置文件折腾了好久，gpt 和类 gpt 和 google 都不太能搜到结果（误导居多），最后无意中还是 gpt 解决了
 ---
-# caddy的basic_auth在有reserve_proxy的情况下怎么一处配置，集体生效
+# caddy 的 basic_auth 在有 reserve_proxy 的情况下怎么一处配置，集体生效
 ## 场景
 在单个子域名多个项目的时候有用，直接上结果
 ```yaml

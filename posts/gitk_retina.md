@@ -1,11 +1,11 @@
 ---
 date: 2016-09-26
-title: 解决macOS gitk字体retina display
+title: 解决 macOS gitk 字体 retina display
 category: macOS
 tags:
 - macOS
 ---
-# 解决macOS gitk字体retina display
+# 解决 macOS gitk 字体 retina display
 开启SIP;  
 修改/System/Library/Frameworks/Tk.framework/Versions/Current/Resources/Wish.app/Contents/Info.plist文件;  
 在最后增加

@@ -1,12 +1,12 @@
 ---
 date: 2023-03-05
-title: Vite开发环境UI框架库加载提速不同UI库的写法
+title: Vite 开发环境 UI 框架库加载提速不同 UI 库的写法
 category: js
 tags:
 - fe
-description: 用vite开发前端，发现一个工程在引入ui库的情况下，在开发过程中如果启用一个新的ui库中的组件甚至切换一个没用的UI新组件，总是要"等待"编译一会，有什么方式能提交这个方面的效率呢？
+description: 用 vite 开发前端，发现一个工程在引入 UI 库的情况下，在开发过程中如果启用一个新的 UI 库中的组件甚至切换一个没用的 UI 新组件，总是要"等待"编译一会，有什么方式能提交这个方面的效率呢？
 ---
-# Vite开发环境UI框架库加载提速不同UI库的写法
+# Vite 开发环境 UI 框架库加载提速不同 UI 库的写法
 
 ## 前文
 https://ti.bi/posts/vite_dev_ui_optimize.html

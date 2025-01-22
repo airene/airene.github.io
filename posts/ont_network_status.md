@@ -1,13 +1,13 @@
 ---
 date: 2022-09-18
-title: 给华为HN8346x6安装一个轻量版的 server_status
+title: 给华为 HN8346x6 安装一个轻量版的 server_status
 category: linux
 tags:
 - ont
 - 光猫
 description: 给光猫安装一个网速监控
 ---
-# 给华为HN8346x6安装一个轻量版的 server_status
+# 给华为 HN8346x6 安装一个轻量版的 server_status
 
 ## 前提摘要
 

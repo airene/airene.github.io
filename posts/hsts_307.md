@@ -5,7 +5,7 @@ category: chrome
 tags:
 - httpcode
 - hsts
-description: 没见过hsts是个什么东东，用一个jsdelivr的接口,发现的307和响应header里面有hsts 
+description: 没见过 hsts 是个什么东东，用一个 jsdelivr 的接口,发现的307和响应 header 里面有 hsts 
 ---
 # Hsts，httpcode - 302 303 307
 

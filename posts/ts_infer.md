@@ -4,7 +4,7 @@ category: js
 title: ts 之 infer 使用
 tags:
 - ts
-description: 看到infer到时候就懵了，从网上找到文章基本都讲都不是很清楚，至少我看起来不是很清楚
+description: 看到 infer 到时候就懵了，从网上找到文章基本都讲都不是很清楚，至少我看起来不是很清楚
 ---
 # ts 之 infer 使用
 

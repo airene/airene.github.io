@@ -1,12 +1,12 @@
 ---
 date: 2024-10-10
-title: 记录一下caddy的log主要配置
+title: 记录一下 caddy 的 log 主要配置
 category: caddy
 tags:
 - caddy
-description: caddy的log和nginx不太一样，nginx属于“单行字符串”类型，caddy的核心宗旨就是json和metrics丰富
+description: caddy 的 log 和 nginx 不太一样，nginx 属于“单行字符串”类型，caddy 的核心宗旨就是 json 和 metrics 丰富
 ---
-# 记录一下caddy的log主要配置
+# 记录一下 caddy 的 log 主要配置
 
 ```yaml
 {

@@ -1,13 +1,13 @@
 ---
 date: 2024-08-07
-title: 一个巧妙的数据结构设计的例子，bitmap的使用
+title: 一个巧妙的数据结构设计的例子 - bitmap 的使用
 category: database
 tags:
 - database
 - bitmap
 description: 一个并不常见，但是非常考察基础知识的综合应用 
 ---
-# 一个巧妙的数据结构设计的例子，bitmap的使用
+# 一个巧妙的数据结构设计的例子 - bitmap 的使用
 
 ## 需求
 ### 假设有这么一个需求
