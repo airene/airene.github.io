@@ -26,7 +26,7 @@ const data = computed(() => initCategory(theme.value.posts))
     padding: 28px 0 10px 0;
     font-size: 1.375rem;
     font-weight: 600;
-    color: #000;
+    color: var(--bt-theme-title);
     font-family: var(--date-font-family);
 }
 </style>

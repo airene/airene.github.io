@@ -44,8 +44,11 @@ const props = defineProps({
 .post-title {
     font-size: 1.0625rem;
     font-weight: 500;
-    color: #000;
+    color: var(--bt-theme-title)!important;
     margin: 0.1rem 0;
+}
+.post-title a{
+    color: var(--bt-theme-title)!important;
 }
 
 .describe {
@@ -54,7 +57,7 @@ const props = defineProps({
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 3;
     overflow: hidden;
-    color: var(--vp-c-text-1);
+    color: var(--vp-c-text-2);
     margin: 10px 0;
     line-height: 1.5rem;
 }
