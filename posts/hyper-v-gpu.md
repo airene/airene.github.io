@@ -16,6 +16,8 @@ description: 记录一下hyper-v如何直通dda的设备，显卡是tesla t4
 引申：用这个开源项目直通其他设备，比如硬盘，网卡也很方便  
 遗留：内存映射放大的作用是什么  
 
+## 2025-02-12 更新内容
+从设备管理器的硬件ID或者直接从DDA的搜索名称或者硬件类型， 比如 tesla T4 或者 display 这个类型 能最快速的找到硬件的方法，这点和微软的文章用path的还不太一样。
 ## 参考
 
 [微软官方文档](https://learn.microsoft.com/en-us/windows-server/virtualization/hyper-v/plan/plan-for-deploying-devices-using-discrete-device-assignment)  
