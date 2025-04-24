@@ -15,7 +15,7 @@ https://ti.bi/posts/vite_dev_ui_optimize.html
 三个都列一下是因为less或者sass导入文件的位置不一样，而且有的UI官网还说不是很清楚导入哪个文件。
 ### antdv config
 ```js
-//vite.config.js plugins节点加入
+//vite.config.ts plugins节点加入
 {
     name: 'dev-auto-import-antdv', 
     transform(code, id) {
@@ -37,7 +37,7 @@ https://ti.bi/posts/vite_dev_ui_optimize.html
 
 ### elemenet-plus config
 ```js
-//vite.config.js plugins节点加入
+//vite.config.ts plugins节点加入
 {
     name: 'dev-auto-import-element-plus',
     transform(code, id) {
@@ -57,7 +57,7 @@ https://ti.bi/posts/vite_dev_ui_optimize.html
 
 ### arco-desin config
 ```js
-//vite.config.js plugins节点加入
+//vite.config.ts plugins节点加入
 {
     name: 'dev-auto-import-arco',
         transform(code, id)
