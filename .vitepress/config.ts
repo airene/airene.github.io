@@ -17,8 +17,8 @@ export default defineConfig({
         // 评论的仓库地址
         comment: {
             repo: 'airene/airene.github.io',
-            themes: 'github-light',
-            issueTerm: 'pathname'
+            repoId: 'MDEwOlJlcG9zaXRvcnkzODIyMjczODI=',
+            categoryId: 'DIC_kwDOFshTts4CpaAl',
         },
         nav: [
             { text: 'Home', link: '/' },
