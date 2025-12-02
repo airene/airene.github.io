@@ -2,6 +2,7 @@
 page: true
 title: home
 aside: false
+comment: false
 ---
 <script setup>
 import Page from "./.vitepress/theme/components/Page.vue";
