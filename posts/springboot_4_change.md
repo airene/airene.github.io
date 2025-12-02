@@ -42,5 +42,8 @@ spring:
   jackson:
     date-format: yyyy-MM-dd
 ```
+## 额外的信息
+用 4.0.0 时候 jdk 直接换成 25，发现即使使用最新的 mavan 稳定版本（3.9.11），打包的时候还是有一个警告。估计要等到 maven发新版更新自己的依赖了。
+
 ## 参考
 https://github.com/spring-projects/spring-boot/wiki/Spring-Boot-4.0-Release-Notes  
