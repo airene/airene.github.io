@@ -13,7 +13,7 @@
   "license": "ISC",
   "type": "module",
   "devDependencies": {
-    "fs-extra": "^11.3.3",
+    "fs-extra": "^11.3.4",
     "globby": "^16.1.1",
     "gray-matter": "^4.0.3",
     "vitepress": "^1.6.4",
