@@ -13,8 +13,8 @@
   "license": "ISC",
   "type": "module",
   "devDependencies": {
-    "fs-extra": "^11.3.5",
-    "globby": "^16.2.0",
+    "fs-extra": "^11.3.6",
+    "globby": "^16.2.1",
     "gray-matter": "^4.0.3",
     "vitepress": "^1.6.4",
     "vitepress-plugin-comment-with-giscus": "^1.1.15"
