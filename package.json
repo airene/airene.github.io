@@ -14,7 +14,7 @@
   "type": "module",
   "devDependencies": {
     "fs-extra": "^11.4.0",
-    "globby": "^16.2.3",
+    "globby": "^16.2.4",
     "gray-matter": "^4.0.3",
     "vitepress": "^1.6.4",
     "vitepress-plugin-comment-with-giscus": "^1.1.15"
